@@ -1,0 +1,19 @@
+﻿<!DOCTYPE html>
+
+<html>
+<head>
+    <meta name="viewport" content="width=device-width" />
+    <title>@ViewBag.Title</title>
+</head>
+<body style="margin:0">
+    <table>
+        <table style="background-color:teal;width:100%;height:63px;clear:both">Menu</table>
+        <table style="width:30%;height:550px;background-color:antiquewhite;float:left">Left</table>
+    </table>
+    <table style="width:70%;height:550px;background-color:burlywood; float:right">
+        Right
+        @RenderBody()
+    </table>
+    <table style="background-color:teal;width:100%;height:50px;clear:both">Footer</table>
+</body>
+</html>

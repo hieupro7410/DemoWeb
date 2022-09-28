@@ -1,0 +1,45 @@
+﻿
+@{
+    ViewData["Title"] = "Regist";
+    Layout = "~/Views/Shared/_MasterLayout.cshtml";
+}
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<body>
+    <h1>NHẬP THÔNG TIN SINH VIÊN</h1>
+    <form action="https://www.google.com" method="post">
+        <label >HỌ VÀ TÊN:</label>
+        <input type="text"><br>
+        <label >MÃ SỐ SINH VIÊN:</label>
+        <input type="text"><br>
+        <label >Mật Khẩu: </label>
+        <input type="password"><br>
+        <label >NGÀY SINH:</label>
+        <input type="date" ><br>
+        <label>CHUYÊN NGÀNH: </label>
+        <input type="radio" value="CNPM" name="chuyennganh">CNPM
+        <input type="radio" value="HTTT"name="chuyennganh">HTTT
+        <input type="radio" value="AN NINH MẠNG" name="chuyennganh">AN NINH MẠNG <br>
+        <label>SỞ THÍCH:</label><br>
+        <input type="checkbox" name="VIẾT CHƯƠNG TRÌNH" id="">VIẾT CHƯƠNG TRÌNH <br>
+        <input type="checkbox" name="PHÂN TÍCH CSDL" id="">PHÂN TÍCH CSDL <br>
+        <input type="checkbox" name="XÂY DỰNG SƠ ĐỒ MẠNG" id="">XÂY DỰNG SƠ ĐỒ MẠNG <br>
+        <label>MÀUz SẮC YÊU THÍCH:</label>
+        <input type="color" name="" id=""><br>
+        <label>HÌNH ĐẠI DIỆN: </label>
+            <input type="file">
+        
+        <label>TÊN ĐĂNG NHẬP WEB TRƯỜNG:</label>
+        <input type="text"><br>
+        <label>MẬT KHẨU ĐĂNG NHẬP WEB TRƯỜNG:</label>
+        <input type="password"><br></br>
+        <input type="submit" value="Gửi dữ liệu về máy chủ">
+    </form>
+</body>
+</html>
